@@ -1,17 +1,17 @@
 /* Variables de colores */
 :root {
-    --primary: #8FA3A6; /* Light Slate Gray */
-    --background: #F7F7F7; /* Ghost White */
-    --secondary-background: #E0E0E0; /* Gainsboro */
-    --gray: #333333; /* Dark Charcoal */
-    --gray-hover: #555555; /* Davy's Gray */
-    --primary-hover: #6F888B; /* Shadow Blue */
-    --link-gray: #4A90E2; /* Picton Blue */
-    --link-gray-hover: #357ABD; /* Cerulean Blue */
-    --gray-border: #CCCCCC; /* Chinese Silver */
+    --primary: #A6729D; /* Lavender Purple */
+    --background: #FEF9E7; /* Light Ivory */
+    --secondary-background: #FAE1DD; /* Light Coral Pink */
+    --gray: #4B4453; /* Purple Taupe */
+    --gray-hover: #3E3846; /* Dark Purple Taupe */
+    --primary-hover: #9B6B8E; /* Old Lavender */
+    --link-gray: #374785; /* Indigo Dye */
+    --link-gray-hover: #28315A; /* Dark Slate Blue */
+    --gray-border: #D8D2C4; /* Pale Taupe */
     --white: #FFFFFF; /* White */
-    --accent: #FFD700; /* Golden Yellow */
-    --accent-hover: #FFC107; /* Amber */
+    --accent: #F2B880; /* Apricot */
+    --accent-hover: #F2A65A; /* Light Apricot */
     --navbar-height: 65px;
 }
 
@@ -154,4 +154,5 @@ body {
         flex-direction: row;
         justify-content: space-around;
     }
+}
 }
