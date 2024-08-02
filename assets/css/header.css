@@ -47,9 +47,7 @@ body {
 }
 
 .navbar__menu-list {
-    display: flex;
-    flex-direction: column;
-    white-space: nowrap;
+    display: none;
     list-style: none;
 }
 
@@ -59,7 +57,7 @@ body {
 
 .navbar__menu-link {
     color: var(--link-gray);
-    font-size: 1.6em;
+    font-size: 1em;
     text-decoration: none;
 }
 
@@ -111,16 +109,25 @@ body {
         justify-content: space-between;
     }
     
-    .nav-open ul {
+     .nav-open ul {
         display: flex;
         flex-direction: column;
     }
-    
+
     .navbar__menu-list {
-        display: none;
+        display: flex;
         flex-direction: column;
+        white-space: nowrap;
     }
     
+    .navbar__menu-list {
+        flex-direction: column;
+    }
+
+    .navbar__menu-link {
+        font-size: 1.6em;
+    }
+
     .navbar__menu {
         flex-direction: row;
     }
