@@ -111,6 +111,16 @@ body {
         justify-content: space-between;
     }
     
+    .nav-open ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar__menu-list {
+        display: none;
+        flex-direction: column;
+    }
+    
     .navbar__menu {
         flex-direction: row;
     }
@@ -135,4 +145,9 @@ body {
         display: none;
     }
 
+}
+
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 600px) {
+   
 }
