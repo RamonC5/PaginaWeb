@@ -35,6 +35,7 @@ body {
 .navbar__menu-list {
     display: flex;
     flex-direction: column;
+    white-space: nowrap;
     list-style: none;
 }
 
