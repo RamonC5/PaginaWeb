@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vercel like header example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/generic.css">
+</head>
+
+<body>
+    <header class="menu__wrapper">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="logo.png" alt="Logo" height="50">
+            </div>
+            <div class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li class="navbar__menu-item"><a href="#inicio" class="navbar__menu-link">Inicio</a></li>
+                    <li class="navbar__menu-item"><a href="/profesionales-del-bienestar.html" class="navbar__menu-link">Especialistas en bienestar integral</a></li>
+                    <li class="navbar__menu-item"><a href="/encuentra-terapeuta.html" class="navbar__menu-link">Para Profesionales</a></li>
+                    <li class="navbar__menu-item"><a href="/servicios" class="navbar__menu-link">Servicios</a></li>
+                    <li class="navbar__menu-item"><a href="#contacto" class="navbar__menu-link">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="navbar__auth">
+                <button class="button--secondary">Login</button>
+                <button class="button--primary">Registro</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-card">
+            <div class="card-profile">
+                <div class="card__header">
+                    <img src="assets/terapeuta.png" alt="Foto del Terapeuta" class="profile-photo">
+                </div>
+                <div class="card__body">
+                    <dl class="details-list">
+                        <dt>Especialidad:</dt>
+                        <dd>Psicología Clínica</dd>
+                        <dt>Años de experiencia:</dt>
+                        <dd>10</dd>
+                        <dt>Valoración:</dt>
+                        <dd>★★★★☆</dd>
+                        <dt>Modalidad:</dt>
+                        <dd>Presencial/Online</dd>
+                        <dt>Ubicación:</dt>
+                        <dd>Madrid, España</dd>
+                        <dt>Días disponibles:</dt>
+                        <dd>Lunes a Viernes</dd>
+                        <dt>Horas disponibles:</dt>
+                        <dd>9:00 - 17:00</dd>
+                    </dl>
+                    <section class="introduction">
+                        <h2>Presentación</h2>
+                        <p>Soy un terapeuta dedicado a ayudar a mis pacientes a superar sus desafíos emocionales y mentales. Mi enfoque se basa en la empatía y la profesionalidad para ofrecer un tratamiento efectivo y personalizado.</p>
+                    </section>
+                    <section class="professional-background">
+                        <h2>Formación y experiencia profesional</h2>
+                        <dl class="details-list">
+                            <dt>Licenciado en Psicología:</dt>
+                            <dd>Universidad de Madrid</dd>
+                            <dt>Máster en Psicología Clínica y de la Salud:</dt>
+                            <dd>Universidad de Barcelona</dd>
+                            <dt>Experiencia en clínicas:</dt>
+                            <dd>Clínica ABC, Clínica XYZ</dd>
+                            <dt>Consultas privadas:</dt>
+                            <dd>Más de 10 años de experiencia</dd>
+                        </dl>
+                    </section>
+                    <section class="pricing">
+                        <h2>Precio</h2>
+                        <p>Precio por hora: 50€</p>
+                    </section>
+                    <section class="additional-info">
+                        <h2>Información adicional</h2>
+                        <p>Idiomas: Español, Inglés. Sesiones disponibles para adultos y adolescentes. Métodos de pago aceptados: Efectivo, Transferencia, Tarjeta de crédito.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__line"></div>
+        <div class="footer__wrapper">
+            <section class="footer__top">
+                <div class="footer__headline">
+                    <h2>Suscríbete a nuestra newsletter</h2>
+                    <p>para estar al día con los nuevos artículos</p>
+                </div>
+                <div class="footer__subscribe">
+                    <input type="email" spellcheck="false" placeholder="Tu email" class="footer__subscribe-input">
+                    <button class="button--primary">Sign Up</button>
+                </div>
+            </section>
+            <div class="footer__columns">
+                <section>
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#" title="Support">Soporte</a></li>
+                        <li><a href="#" title="Sitemap">Sitemap</a></li>
+                        <li><a href="#" title="Newsletter">Newsletter</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Compañía</h3>
+                    <ul>
+                        <li><a href="#" title="About Us">Acerca de nosotros</a></li>
+                        <li><a href="#" title="Blog">Blog</a></li>
+                        <li><a href="#" title="Careers">Contacto</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#" title="Terms and services">Términos de uso</a></li>
+                        <li><a href="#" title="Privacy Policy">Privacidad</a></li>
+                        <li><a href="#" title="Cookies">Cookies</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="footer__bottom">
+                <small>© My Company Ltd. <span id="year"></span>, All rights reserved</small>
+                <span class="social-links">
+                    <a href="#" title="Instagram"><img src="assets/instagram.svg" alt="Instagram"></a>
+                    <a href="#" title="Linkedin"><img src="assets/linkedin.svg" alt="Linkedin"></a>
+                    <a href="#" title="Twitter"><img src="assets/twitter.svg" alt="Twitter"></a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

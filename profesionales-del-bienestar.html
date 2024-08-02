@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/generic.css">
+</head>
+
+<body>
+    <header class="menu__wrapper">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="logo.png" alt="Logo" height="50">
+            </div>
+            <div class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li class="navbar__menu-item"><a href="#inicio" class="navbar__menu-link">Inicio</a></li>
+                    <li class="navbar__menu-item"><a href="#quienes-somos" class="navbar__menu-link">Quiénes Somos</a></li>
+                    <li class="navbar__menu-item"><a href="/servicios" class="navbar__menu-link">Servicios</a></li>
+                    <li class="navbar__menu-item"><a href="#contacto" class="navbar__menu-link">Contacto</a></li>
+                    <li class="navbar__menu-item"><a href="/profesionales.html" class="navbar__menu-link">Profesionales</a></li>
+                </ul>
+            </div>
+            <div class="navbar__auth">
+                <button class="button--secondary">Login</button>
+                <button class="button--primary">Registro</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2>Formulario de Planes</h2>
+            <form class="form">
+                <div class="form-group">
+                    <label for="plan-type">Tipo de Plan</label>
+                    <select id="plan-type" name="plan-type">
+                        <option value="basico">Básico</option>
+                        <option value="premium">Premium</option>
+                        <option value="empresarial">Empresarial</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="location">Ubicación</label>
+                    <select id="location" name="location">
+                        <option value="basico">Básico</option>
+                        <option value="premium">Premium</option>
+                        <option value="empresarial">Empresarial</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="price-min">Precio Mínimo</label>
+                    <select id="price-min" name="price-min">
+                        <option value="basico">Básico</option>
+                        <option value="premium">Premium</option>
+                        <option value="empresarial">Empresarial</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="price-max">Precio Máximo</label>
+                    <select id="price-max" name="price-max">
+                        <option value="basico">Básico</option>
+                        <option value="premium">Premium</option>
+                        <option value="empresarial">Empresarial</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+        <div class="cards-container">
+            <article class="card-container">
+                <div class="card__preview">
+                    <img src="assets/lakeview-elegance.png" alt="Lakeview Elegance preview">
+                    <div class="card__price">
+                        2 €
+                    </div>
+                </div>
+                <div class="card__content">
+                    <h2 class="card__title">Lakeview Elegance</h2>
+                    <p class="card__address">
+                        258 Serenity Lane, Crestwood Hills
+                    </p>
+                    <p class="card__description">
+                        Nestled along the tranquil shores of a pristine lake, Lakeview Lakeside offers an idyllic escape
+                        into nature's embrace. This exquisite property combines rustic charm with modern luxury, featuring a spacious, elegantly
+                        designed home with panoramic lake views. Each room is crafted to maximize the connection with the natural surroundings,
+                        offering large windows and outdoor spaces that blend seamlessly with the serene lakeside setting.
+                    </p>
+                    <div class="card__bottom">
+                        <div class="card__properties">
+                            2 estrellas
+                        </div>
+                        <a href="/profesional.html" class="button--primary">Contactar</a>
+                    </div>
+                </div>
+            </article>
+            <article class="card-container">
+                <div class="card__preview">
+                    <img src="assets/vista-paradiso.png" alt="Vista Paradiso">
+                    <div class="card__price">
+                        $4,500,000
+                    </div>
+                </div>
+                <div class="card__content">
+                    <h2 class="card__title">Vista Paradiso</h2>
+                    <p class="card__address">
+                        123 Paradise Road, Lakeview
+                    </p>
+                    <p class="card__description">
+                        Vista Paradiso is an epitome of modern luxury, nestled against a backdrop of a breathtaking lake and
+                        verdant scenery.
+                        The home features expansive glass windows and a generous terrace, offering unparalleled views and a
+                        seamless
+                        indoor-outdoor living experience. Designed for those who seek elegance and tranquility, it's
+                        equipped with top-tier
+                        amenities.
+                    </p>
+                    <div class="card__bottom">
+                        <div class="card__properties">
+                            4 Bed | 2 Bath | 7,000 sq. ft
+                        </div>
+                        <button class="card__btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="card-container">
+                <div class="card__preview">
+                    <img src="assets/skyline-oasis.png" alt="Skyline Oasis">
+                    <div class="card__price">
+                        $5,200,000
+                    </div>
+                </div>
+                <div class="card__content">
+                    <h2 class="card__title">Skyline Oasis</h2>
+                    <p class="card__address">
+                        450 Metropolitan Ave, Downtown
+                    </p>
+                    <p class="card__description">
+                        Skyline Oasis is a beacon of modern urban luxury, located in the heart of the city. This residence
+                        features a sleek
+                        design with eco-friendly elements, large balconies, and a stunning rooftop garden, offering a unique
+                        panoramic view of
+                        the city's skyline. The fusion of high-tech amenities and sophisticated style makes it an ideal
+                        choice for those who
+                        enjoy the vibrancy of city life without compromising on privacy and luxury.
+                    </p>
+                    <div class="card__bottom">
+                        <div class="card__properties">
+                            3 Bed | 3 Bath | 3,000 sq. ft
+                        </div>
+                        <button class="card__btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__line"></div>
+        <div class="footer__wrapper">
+            <section class="footer__top">
+                <div class="footer__headline">
+                    <h2>Suscríbete a nuestra newsletter</h2>
+                    <p>para estar al día con los nuevos artículos</p>
+                </div>
+                <div class="footer__subscribe">
+                    <input type="email" spellcheck="false" placeholder="Tu email" class="footer__subscribe-input">
+                    <button class="button--primary">Sign Up</button>
+                </div>
+            </section>
+            <div class="footer__columns">
+                <section>
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#" title="Support">Soporte</a></li>
+                        <li><a href="#" title="Sitemap">Sitemap</a></li>
+                        <li><a href="#" title="Newsletter">Newsletter</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Compañía</h3>
+                    <ul>
+                        <li><a href="#" title="About Us">Acerca de nosotros</a></li>
+                        <li><a href="#" title="Blog">Blog</a></li>
+                        <li><a href="#" title="Careers">Contacto</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#" title="Terms and services">Términos de uso</a></li>
+                        <li><a href="#" title="Privacy Policy">Privacidad</a></li>
+                        <li><a href="#" title="Cookies">Cookies</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="footer__bottom">
+                <small>© My Company Ltd. <span id="year"></span>, All rights reserved</small>
+                <span class="social-links">
+                    <a href="#" title="Instagram"><img src="assets/instagram.svg" alt="Instagram"></a>
+                    <a href="#" title="Linkedin"><img src="assets/linkedin.svg" alt="Linkedin"></a>
+                    <a href="#" title="Twitter"><img src="assets/twitter.svg" alt="Twitter"></a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
