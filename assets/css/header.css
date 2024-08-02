@@ -38,6 +38,8 @@ body {
 
 .nav-open ul {
     display: flex;
+    flex-direction: column;
+    white-space: nowrap;
 }
 
 .navbar__menu {
