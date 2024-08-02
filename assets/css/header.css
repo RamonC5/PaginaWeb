@@ -26,6 +26,20 @@ body {
     margin-bottom: 10px;
 }
 
+.navbar .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navbar .menu-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-open ul {
+    display: flex;
+}
+
 .navbar__menu {
     display: flex;
     flex-direction: column;
@@ -116,4 +130,9 @@ body {
     .navbar__auth button {
         margin: 0 5px;
     }
+
+    .navbar .menu-icon {
+        display: none;
+    }
+
 }
